@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 
 img = cv2.imread('new.jpg')
-mask = (img.shape)
+mask = cv2.imread('mask1.jpg', 0)
 cv2.imshow('start', img)
 x=int(474/2)
 
